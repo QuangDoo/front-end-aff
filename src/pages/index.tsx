@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Layout from '../components/Layout/Layout'
 import styled from 'styled-components'
-import Button from '../components/ui-kits/Button/Button'
+// import Button from '../components/ui-kits/Button/Button'
 import withApollo from '../utils/withApollo'
 import { useQuery } from '@apollo/react-hooks'
 import { GET_PRODUCTS } from '../graphql/product/product.query'
@@ -44,24 +44,7 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <Layout>
-        <StyledHomeBody>
-          {products.map((data) => (
-            <Card
-              key={data.id}
-              imageURL={data.image}
-              buttonGroups={
-                <>
-                  <Button>View</Button>
-                  <Button>Add to Cart</Button>
-                </>
-              }
-            >
-              {data.name}
-            </Card>
-          ))}
-        </StyledHomeBody>
-      </Layout>
+      <Layout>asd</Layout>
       <Footer />
     </>
   )

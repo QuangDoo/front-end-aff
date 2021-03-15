@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import Button from '../ui-kits/Button/Button'
 
 export const StyledHeader = styled.div`
   align-items: center;
@@ -26,4 +25,4 @@ export const StyledHeaderMenu = styled.ul`
   list-style: none;
 `
 export const StyledHeaderMenuItem = styled.li``
-export const StyledHeaderButton = styled(Button)``
+export const StyledHeaderButton = styled.button``
