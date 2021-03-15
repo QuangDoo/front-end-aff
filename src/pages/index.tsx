@@ -42,9 +42,11 @@ function Home() {
       <Head>
         <title>STRANGS Template</title>
         <link rel="icon" href="/favicon.ico" />
+        <p></p>
       </Head>
       <Header />
       <Layout>asd</Layout>
+      <p>{process?.env?.QUANGDO}</p>
       <Footer />
     </>
   )
